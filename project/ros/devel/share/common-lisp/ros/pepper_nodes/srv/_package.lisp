@@ -1,0 +1,1 @@
+/home/pietro/Desktop/cogrob_ws/ros/devel/.private/pepper_nodes/share/common-lisp/ros/pepper_nodes/srv/_package.lisp

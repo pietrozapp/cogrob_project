@@ -1,0 +1,1 @@
+/home/pietro/Desktop/cogrob_ws/ros/devel/.private/rasa_ros/lib/python3/dist-packages/rasa_ros/__init__.py

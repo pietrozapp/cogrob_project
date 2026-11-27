@@ -1,0 +1,5 @@
+audio_nodes/ros_audio_pkg
+/home/pietro/Desktop/cogrob_ws/ros/devel/.private/ros_audio_pkg/cmake.lock /home/pietro/Desktop/cogrob_ws/ros/devel/./cmake.lock
+/home/pietro/Desktop/cogrob_ws/ros/devel/.private/ros_audio_pkg/share/ros_audio_pkg/cmake/ros_audio_pkgConfig.cmake /home/pietro/Desktop/cogrob_ws/ros/devel/share/ros_audio_pkg/cmake/ros_audio_pkgConfig.cmake
+/home/pietro/Desktop/cogrob_ws/ros/devel/.private/ros_audio_pkg/share/ros_audio_pkg/cmake/ros_audio_pkgConfig-version.cmake /home/pietro/Desktop/cogrob_ws/ros/devel/share/ros_audio_pkg/cmake/ros_audio_pkgConfig-version.cmake
+/home/pietro/Desktop/cogrob_ws/ros/devel/.private/ros_audio_pkg/lib/pkgconfig/ros_audio_pkg.pc /home/pietro/Desktop/cogrob_ws/ros/devel/lib/pkgconfig/ros_audio_pkg.pc

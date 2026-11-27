@@ -1,0 +1,7562 @@
+[
+  {
+    "text": "yes, he is carrying a messenger bag",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "true",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 22,
+        "end": 35,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 8,
+        "end": 19,
+        "confidence_entity": 0.9309976100921631,
+        "group": "bag_group",
+        "confidence_group": 0.9868396520614624,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 32,
+        "end": 35,
+        "confidence_entity": 0.8334352970123291,
+        "group": "bag_group",
+        "confidence_group": 0.9640924334526062,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "for sure, he puts on a flat cap",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "value": "hat",
+        "entity": "hat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 13,
+        "end": 20,
+        "confidence_entity": 0.9909524917602539,
+        "group": "hat_group",
+        "confidence_group": 0.9903274178504944,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 28,
+        "end": 31,
+        "confidence_entity": 0.9998742341995239,
+        "group": "hat_group",
+        "confidence_group": 0.9958868622779846,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "No, that doesn't sound right.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.35939884185791016,
+        "group": "trajectory_group",
+        "confidence_group": 0.770568311214447,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "maybe",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.511062741279602,
+        "value": "maybe",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Do you see anyone having a cap and with a purse?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 27,
+        "end": 30,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      },
+      {
+        "start": 35,
+        "end": 39,
+        "value": "true",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 42,
+        "end": 47,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9999369382858276,
+        "group": "bag_group",
+        "confidence_group": 0.9916127920150757,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 27,
+        "end": 30,
+        "confidence_entity": 0.9999572038650513,
+        "group": "hat_group",
+        "confidence_group": 0.999686598777771,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.9994118213653564,
+        "group": "bag_group",
+        "confidence_group": 0.9430024027824402,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 42,
+        "end": 47,
+        "confidence_entity": 0.9582409262657166,
+        "group": "bag_group",
+        "confidence_group": 0.9965139031410217,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "there is a [girl] that stays in the line one",
+    "entities": [
+      {
+        "start": 36,
+        "end": 44,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.9625028371810913,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 36,
+        "end": 44,
+        "confidence_entity": 0.9999221563339233,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998725652694702,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 36,
+        "end": 44,
+        "value": "line one",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "have you notice a man in the line one",
+    "entities": [
+      {
+        "start": 18,
+        "end": 21,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 29,
+        "end": 37,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "trajectory",
+        "start": 29,
+        "end": 37,
+        "confidence_entity": 0.9998898506164551,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998939037322998,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 29,
+        "end": 37,
+        "value": "line one",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "have you see a person that spent time for 3 times for the line 2",
+    "entities": [
+      {
+        "start": 58,
+        "end": 64,
+        "value": "2",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.6233583092689514,
+        "group": "trajectory_group",
+        "confidence_group": 0.9009420871734619,
+        "value": "spent",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 58,
+        "end": 64,
+        "confidence_entity": 0.9993745684623718,
+        "group": "trajectory_group",
+        "confidence_group": 0.9993541836738586,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 58,
+        "end": 64,
+        "value": "line 2",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i want to find someone that is stayed line 2 5 times",
+    "entities": [
+      {
+        "start": 38,
+        "end": 44,
+        "value": "2",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "trajectory",
+        "start": 38,
+        "end": 46,
+        "confidence_entity": 0.659125566482544,
+        "group": "trajectory_group",
+        "confidence_group": 0.8379482626914978,
+        "value": "line 2 5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 38,
+        "end": 44,
+        "value": "line 2",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you find a person that has not been 4 times for the line 3",
+    "entities": [
+      {
+        "start": 27,
+        "end": 39,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 56,
+        "end": 62,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 27,
+        "end": 30,
+        "confidence_entity": 0.9847739934921265,
+        "group": "trajectory_group",
+        "confidence_group": 0.9328742623329163,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 31,
+        "end": 34,
+        "confidence_entity": 0.996585488319397,
+        "group": "trajectory_group",
+        "confidence_group": 0.9952488541603088,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 56,
+        "end": 62,
+        "confidence_entity": 0.9993682503700256,
+        "group": "trajectory_group",
+        "confidence_group": 0.9994138479232788,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 56,
+        "end": 62,
+        "value": "line 3",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i am look for a individual don't stay in line four",
+    "entities": [
+      {
+        "start": 27,
+        "end": 40,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 41,
+        "end": 50,
+        "value": "4",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 27,
+        "end": 37,
+        "confidence_entity": 0.7809984683990479,
+        "group": "trajectory_group",
+        "confidence_group": 0.9113665819168091,
+        "value": "don't stay",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 41,
+        "end": 50,
+        "confidence_entity": 0.9998998641967773,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998399019241333,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 41,
+        "end": 50,
+        "value": "line four",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you find a grandmother that did not stay in the line 1 but stay in the line 1",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "value": "female",
+        "entity": "gender"
+      },
+      {
+        "start": 32,
+        "end": 44,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 52,
+        "end": 58,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 75,
+        "end": 81,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 15,
+        "end": 26,
+        "confidence_entity": 0.9986258745193481,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 32,
+        "end": 39,
+        "confidence_entity": 0.9640293121337891,
+        "group": "trajectory_group",
+        "confidence_group": 0.9864296913146973,
+        "value": "did not",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 45,
+        "end": 47,
+        "confidence_entity": 0.9906773567199707,
+        "group": "trajectory_group",
+        "confidence_group": 0.9642165899276733,
+        "value": "in",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 52,
+        "end": 58,
+        "confidence_entity": 0.9997766613960266,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998443126678467,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 75,
+        "end": 81,
+        "confidence_entity": 0.9998493194580078,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998989105224609,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 52,
+        "end": 58,
+        "value": "line 1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 75,
+        "end": 81,
+        "value": "line 1",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Is there someone who not passed through the line 3 but stayed close?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 24,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 44,
+        "end": 50,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 21,
+        "end": 39,
+        "confidence_entity": 0.5700573921203613,
+        "group": "trajectory_group",
+        "confidence_group": 0.8752486705780029,
+        "value": "not passed through",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 44,
+        "end": 50,
+        "confidence_entity": 0.9998418092727661,
+        "group": "trajectory_group",
+        "confidence_group": 0.9996976852416992,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 44,
+        "end": 50,
+        "value": "line 3",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Look for someone that not avoided entering the line 3 but stayed in the area.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 25,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 47,
+        "end": 53,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 22,
+        "end": 33,
+        "confidence_entity": 0.6512667536735535,
+        "group": "trajectory_group",
+        "confidence_group": 0.8366968631744385,
+        "value": "not avoided",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 47,
+        "end": 53,
+        "confidence_entity": 0.999846339225769,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998397827148438,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 47,
+        "end": 53,
+        "value": "line 3",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Are there any guys near line 4?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "male",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9903290271759033,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.9976971745491028,
+        "group": "trajectory_group",
+        "confidence_group": 0.9982324242591858,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 24,
+        "end": 30,
+        "value": "line 4",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Did a boy pass by line 3?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 15,
+        "end": 17,
+        "confidence_entity": 0.7310876250267029,
+        "value": "by",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9998667240142822,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998692274093628,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 18,
+        "end": 24,
+        "value": "line 3",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Did a teenager cross line one, line two, and line three?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "value": "2",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "trajectory",
+        "start": 21,
+        "end": 29,
+        "confidence_entity": 0.9997358918190002,
+        "group": "trajectory_group",
+        "confidence_group": 0.9996953010559082,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.9994878768920898,
+        "group": "trajectory_group",
+        "confidence_group": 0.9997722506523132,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 45,
+        "end": 55,
+        "confidence_entity": 0.9998643398284912,
+        "group": "trajectory_group",
+        "confidence_group": 0.999847412109375,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 21,
+        "end": 29,
+        "value": "line one",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 31,
+        "end": 39,
+        "value": "line two",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 45,
+        "end": 55,
+        "value": "line three",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "she",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "female",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "count the number of men with a cap and a backpack",
+    "entities": [
+      {
+        "start": 20,
+        "end": 23,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 31,
+        "end": 34,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      },
+      {
+        "start": 41,
+        "end": 49,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 20,
+        "end": 23,
+        "confidence_entity": 0.5181844830513,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9999171495437622,
+        "group": "hat_group",
+        "confidence_group": 0.9828258156776428,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 31,
+        "end": 34,
+        "confidence_entity": 0.9999570846557617,
+        "group": "hat_group",
+        "confidence_group": 0.9996169805526733,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 41,
+        "end": 49,
+        "confidence_entity": 0.9997264742851257,
+        "group": "bag_group",
+        "confidence_group": 0.999828577041626,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "count the men who are wearing hats and not carrying a bag",
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 22,
+        "end": 29,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 30,
+        "end": 34,
+        "value": "hats",
+        "entity": "hat",
+        "group": "hat_group"
+      },
+      {
+        "start": 39,
+        "end": 51,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 54,
+        "end": 57,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 10,
+        "end": 13,
+        "confidence_entity": 0.9738447666168213,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 14,
+        "end": 17,
+        "confidence_entity": 0.9993897676467896,
+        "group": "trajectory_group",
+        "confidence_group": 0.9361103177070618,
+        "value": "who",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 22,
+        "end": 29,
+        "confidence_entity": 0.9991692304611206,
+        "group": "bag_group",
+        "confidence_group": 0.9402461051940918,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.8513884544372559,
+        "group": "bag_group",
+        "confidence_group": 0.35648107528686523,
+        "value": "hats",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 39,
+        "end": 51,
+        "confidence_entity": 0.9956293106079102,
+        "group": "bag_group",
+        "confidence_group": 0.9977478384971619,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 54,
+        "end": 57,
+        "confidence_entity": 0.9925093650817871,
+        "group": "bag_group",
+        "confidence_group": 0.9927650094032288,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how many males have caps on and no backpack",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "caps",
+        "entity": "hat",
+        "group": "hat_group"
+      },
+      {
+        "start": 32,
+        "end": 34,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 35,
+        "end": 43,
+        "value": "backpack",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9995388984680176,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.9996953010559082,
+        "group": "hat_group",
+        "confidence_group": 0.8164300322532654,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.9022059440612793,
+        "group": "hat_group",
+        "confidence_group": 0.9798274040222168,
+        "value": "caps",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 25,
+        "end": 27,
+        "confidence_entity": 0.9881750345230103,
+        "group": "bag_group",
+        "confidence_group": 0.8607555627822876,
+        "value": "on",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 32,
+        "end": 34,
+        "confidence_entity": 0.9996905326843262,
+        "group": "bag_group",
+        "confidence_group": 0.999322772026062,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 35,
+        "end": 43,
+        "confidence_entity": 0.9997101426124573,
+        "group": "bag_group",
+        "confidence_group": 0.9998132586479187,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "count guys with hats and without a bag",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 16,
+        "end": 20,
+        "value": "hats",
+        "entity": "hat",
+        "group": "hat_group"
+      },
+      {
+        "start": 25,
+        "end": 32,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 35,
+        "end": 38,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 6,
+        "end": 10,
+        "confidence_entity": 0.9992939233779907,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.996130108833313,
+        "group": "bag_group",
+        "confidence_group": 0.9981245398521423,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.9732216596603394,
+        "group": "hat_group",
+        "confidence_group": 0.9648651480674744,
+        "value": "hats",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.9990999698638916,
+        "group": "bag_group",
+        "confidence_group": 0.9971094727516174,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 35,
+        "end": 38,
+        "confidence_entity": 0.9832358956336975,
+        "group": "bag_group",
+        "confidence_group": 0.9821252822875977,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Who is the winner of the competition?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "1",
+        "entity": "group"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tell me the first group.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "1",
+        "entity": "group"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Can you tell me the winning group?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "1",
+        "entity": "group"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which group is ranked number four?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 33,
+        "value": "4",
+        "entity": "group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.9657467007637024,
+        "group": "trajectory_group",
+        "confidence_group": 0.8307161331176758,
+        "value": "is",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "group",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.9595499038696289,
+        "value": "number",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "number",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.4711030125617981,
+        "value": "four",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "have a good one",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.8361189961433411,
+        "group": "bag_group",
+        "confidence_group": 0.3826083838939667,
+        "value": "good",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 12,
+        "end": 15,
+        "confidence_entity": 0.6400381326675415,
+        "group": "trajectory_group",
+        "confidence_group": 0.6321814060211182,
+        "value": "one",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "stay safe",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.696890652179718,
+        "value": "safe",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "absolutely, she puts on a bucket hat",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "value": "hat",
+        "entity": "hat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9924815893173218,
+        "group": "hat_group",
+        "confidence_group": 0.9933931231498718,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.8799072504043579,
+        "group": "hat_group",
+        "confidence_group": 0.8377240896224976,
+        "value": "bucket",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hat",
+        "start": 33,
+        "end": 36,
+        "confidence_entity": 0.8417420983314514,
+        "group": "hat_group",
+        "confidence_group": 0.6731029748916626,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "definitely, he puts on a boater hat",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "value": "hat",
+        "entity": "hat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.780220091342926,
+        "group": "hat_group",
+        "confidence_group": 0.9387506246566772,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.9962795376777649,
+        "group": "hat_group",
+        "confidence_group": 0.9156637191772461,
+        "value": "boater",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hat",
+        "start": 32,
+        "end": 35,
+        "confidence_entity": 0.901533305644989,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "totally, she is wearing a chef's hat",
+    "entities": [
+      {
+        "start": 13,
+        "end": 23,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "value": "hat",
+        "entity": "hat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 13,
+        "end": 23,
+        "confidence_entity": 0.9919285774230957,
+        "group": "hat_group",
+        "confidence_group": 0.9918447136878967,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.7976171970367432,
+        "group": "hat_group",
+        "confidence_group": 0.8006786108016968,
+        "value": "chef's",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hat",
+        "start": 33,
+        "end": 36,
+        "confidence_entity": 0.9975479245185852,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "absolutely, he puts on a cloche",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "hat",
+        "entity": "hat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.9963216781616211,
+        "group": "hat_group",
+        "confidence_group": 0.9968177080154419,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.9988566637039185,
+        "group": "hat_group",
+        "confidence_group": 0.908819854259491,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "indeed, he holds a wristlet",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "true",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9997352957725525,
+        "group": "bag_group",
+        "confidence_group": 0.6960321068763733,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "gender",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.7180070281028748,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "not really, he hasn't worn a cowboy hat",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 15,
+        "end": 26,
+        "confidence_entity": 0.995819091796875,
+        "group": "hat_group",
+        "confidence_group": 0.9935785531997681,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.9981105327606201,
+        "value": "cowboy",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hat",
+        "start": 36,
+        "end": 39,
+        "confidence_entity": 0.996921718120575,
+        "group": "hat_group",
+        "confidence_group": 0.8733049035072327,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "absolutely not, she doesn't put on a pillbox hat",
+    "entities": [
+      {
+        "start": 20,
+        "end": 34,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 37,
+        "end": 48,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 20,
+        "end": 34,
+        "confidence_entity": 0.9849599003791809,
+        "group": "hat_group",
+        "confidence_group": 0.9588317275047302,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 37,
+        "end": 44,
+        "confidence_entity": 0.9980192184448242,
+        "value": "pillbox",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hat",
+        "start": 45,
+        "end": 48,
+        "confidence_entity": 0.9838755130767822,
+        "group": "hat_group",
+        "confidence_group": 0.9720742702484131,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I lost my children",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "male",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm in search of a woman carrying a case and wearing a beanie.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "female",
+        "entity": "gender"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "value": "true",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      },
+      {
+        "start": 45,
+        "end": 52,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 19,
+        "end": 24,
+        "confidence_entity": 0.9955142140388489,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 25,
+        "end": 33,
+        "confidence_entity": 0.9879675507545471,
+        "group": "hat_group",
+        "confidence_group": 0.9699576497077942,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 36,
+        "end": 40,
+        "confidence_entity": 0.9986971020698547,
+        "group": "bag_group",
+        "confidence_group": 0.9963886737823486,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 45,
+        "end": 52,
+        "confidence_entity": 0.9980962872505188,
+        "group": "hat_group",
+        "confidence_group": 0.9988640546798706,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 55,
+        "end": 61,
+        "confidence_entity": 0.9999194145202637,
+        "group": "hat_group",
+        "confidence_group": 0.9998241066932678,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Is there a boy carrying a helmet?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 14,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 15,
+        "end": 23,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.9992504715919495,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9440795183181763,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.9997784495353699,
+        "group": "hat_group",
+        "confidence_group": 0.9985561966896057,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "have you seen a uncle that stays in the line one",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "trajectory",
+        "start": 40,
+        "end": 48,
+        "confidence_entity": 0.9998973608016968,
+        "group": "trajectory_group",
+        "confidence_group": 0.9999125003814697,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 40,
+        "end": 48,
+        "value": "line one",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "there is a [dude] in the line one",
+    "entities": [
+      {
+        "start": 25,
+        "end": 33,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.9969713687896729,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 25,
+        "end": 33,
+        "confidence_entity": 0.9997861981391907,
+        "group": "trajectory_group",
+        "confidence_group": 0.999863862991333,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 25,
+        "end": 33,
+        "value": "line one",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "have you seen [mother-in-law]\"entity\":\"gender\", \"value\":\"female\"} does not wear a satchel",
+    "entities": [
+      {
+        "start": 66,
+        "end": 79,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 82,
+        "end": 89,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 57,
+        "end": 63,
+        "confidence_entity": 0.5262414216995239,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 66,
+        "end": 70,
+        "confidence_entity": 0.9731325507164001,
+        "group": "bag_group",
+        "confidence_group": 0.9617903828620911,
+        "value": "does",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 71,
+        "end": 79,
+        "confidence_entity": 0.844194233417511,
+        "group": "bag_group",
+        "confidence_group": 0.9215006828308105,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 82,
+        "end": 89,
+        "confidence_entity": 0.9974959492683411,
+        "group": "bag_group",
+        "confidence_group": 0.9985184073448181,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i m look for a one who is does not have a sombrero and taking a purse in the shopping center",
+    "entities": [
+      {
+        "start": 26,
+        "end": 39,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 42,
+        "end": 50,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "value": "true",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 64,
+        "end": 69,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "trajectory",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9884828925132751,
+        "group": "trajectory_group",
+        "confidence_group": 0.9866682291030884,
+        "value": "one",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 26,
+        "end": 30,
+        "confidence_entity": 0.9981662631034851,
+        "group": "bag_group",
+        "confidence_group": 0.9926515221595764,
+        "value": "does",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 31,
+        "end": 34,
+        "confidence_entity": 0.9859640598297119,
+        "group": "bag_group",
+        "confidence_group": 0.9819899797439575,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.8454694747924805,
+        "group": "hat_group",
+        "confidence_group": 0.9252631664276123,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 42,
+        "end": 50,
+        "confidence_entity": 0.9995971322059631,
+        "group": "hat_group",
+        "confidence_group": 0.9995359182357788,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 55,
+        "end": 61,
+        "confidence_entity": 0.8807225227355957,
+        "group": "bag_group",
+        "confidence_group": 0.9110631942749023,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 64,
+        "end": 69,
+        "confidence_entity": 0.9877915382385254,
+        "group": "bag_group",
+        "confidence_group": 0.9994664788246155,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "have you see someone that not passed in 15 times for the line 3",
+    "entities": [
+      {
+        "start": 26,
+        "end": 39,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 57,
+        "end": 63,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 26,
+        "end": 29,
+        "confidence_entity": 0.998353123664856,
+        "group": "trajectory_group",
+        "confidence_group": 0.9935470223426819,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 37,
+        "end": 39,
+        "confidence_entity": 0.9994565844535828,
+        "group": "trajectory_group",
+        "confidence_group": 0.988743782043457,
+        "value": "in",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 57,
+        "end": 63,
+        "confidence_entity": 0.9998970031738281,
+        "group": "trajectory_group",
+        "confidence_group": 0.9999068975448608,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 57,
+        "end": 63,
+        "value": "line 3",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i'm searching a person not at the 6 times for the line 3",
+    "entities": [
+      {
+        "start": 23,
+        "end": 33,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 50,
+        "end": 56,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 23,
+        "end": 29,
+        "confidence_entity": 0.9906070232391357,
+        "group": "trajectory_group",
+        "confidence_group": 0.9871532320976257,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 50,
+        "end": 56,
+        "confidence_entity": 0.9998975992202759,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998773336410522,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 50,
+        "end": 56,
+        "value": "line 3",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you find a person that not pass for the line 1 and stay near the line 1",
+    "entities": [
+      {
+        "start": 27,
+        "end": 30,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 44,
+        "end": 50,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 69,
+        "end": 75,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.5507143139839172,
+        "group": "trajectory_group",
+        "confidence_group": 0.9757714867591858,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 44,
+        "end": 50,
+        "confidence_entity": 0.9999135732650757,
+        "group": "trajectory_group",
+        "confidence_group": 0.999841570854187,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 69,
+        "end": 75,
+        "confidence_entity": 0.9998874664306641,
+        "group": "trajectory_group",
+        "confidence_group": 0.9999395608901978,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 44,
+        "end": 50,
+        "value": "line 1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 69,
+        "end": 75,
+        "value": "line 1",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Show me someone who cross one time the line 3",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "true",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "value": "1",
+        "entity": "number",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 16,
+        "end": 25,
+        "confidence_entity": 0.810066282749176,
+        "group": "trajectory_group",
+        "confidence_group": 0.8896649479866028,
+        "value": "who cross",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "number",
+        "start": 26,
+        "end": 34,
+        "confidence_entity": 0.981949508190155,
+        "group": "trajectory_group",
+        "confidence_group": 0.9754472970962524,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 39,
+        "end": 45,
+        "confidence_entity": 0.9997982382774353,
+        "group": "trajectory_group",
+        "confidence_group": 0.9999008178710938,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "number",
+        "start": 26,
+        "end": 34,
+        "value": "one time",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 39,
+        "end": 45,
+        "value": "line 3",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Did a niece walk near line three?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 11,
+        "value": "female",
+        "entity": "gender"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 6,
+        "end": 16,
+        "confidence_entity": 0.7891483306884766,
+        "group": "trajectory_group",
+        "confidence_group": 0.9334136247634888,
+        "value": "niece walk",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.9997338652610779,
+        "group": "trajectory_group",
+        "confidence_group": 0.9996864795684814,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 22,
+        "end": 32,
+        "value": "line three",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Can you find a child who walked near line two and line 4?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "value": "2",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 50,
+        "end": 56,
+        "value": "4",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "trajectory",
+        "start": 37,
+        "end": 45,
+        "confidence_entity": 0.9996745586395264,
+        "group": "trajectory_group",
+        "confidence_group": 0.9997348189353943,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 50,
+        "end": 56,
+        "confidence_entity": 0.999897837638855,
+        "group": "trajectory_group",
+        "confidence_group": 0.9999299049377441,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 50,
+        "end": 56,
+        "value": "line 4",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 37,
+        "end": 45,
+        "value": "line two",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Almost sure it is a niece",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "female",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "he",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "male",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how many girls are carrying a tote bag and without a beret",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "female",
+        "entity": "gender"
+      },
+      {
+        "start": 30,
+        "end": 38,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 53,
+        "end": 58,
+        "value": "beret",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9998610019683838,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.9183849692344666,
+        "group": "bag_group",
+        "confidence_group": 0.8625686764717102,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 30,
+        "end": 38,
+        "confidence_entity": 0.9951773881912231,
+        "group": "bag_group",
+        "confidence_group": 0.9975653886795044,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 43,
+        "end": 50,
+        "confidence_entity": 0.9999419450759888,
+        "group": "hat_group",
+        "confidence_group": 0.9884170889854431,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 53,
+        "end": 58,
+        "confidence_entity": 0.9999338388442993,
+        "group": "hat_group",
+        "confidence_group": 0.9989194869995117,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "enumerate the people not holding a handbag and with a beanie",
+    "entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "value": "handbag",
+        "entity": "bag",
+        "group": "bag_group"
+      },
+      {
+        "start": 47,
+        "end": 51,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 54,
+        "end": 60,
+        "value": "beanie",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 21,
+        "end": 32,
+        "confidence_entity": 0.9978936314582825,
+        "group": "bag_group",
+        "confidence_group": 0.9650647044181824,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 35,
+        "end": 42,
+        "confidence_entity": 0.999810516834259,
+        "group": "bag_group",
+        "confidence_group": 0.9998522996902466,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 47,
+        "end": 51,
+        "confidence_entity": 0.9997079968452454,
+        "group": "bag_group",
+        "confidence_group": 0.8481976985931396,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 54,
+        "end": 60,
+        "confidence_entity": 0.9999239444732666,
+        "group": "hat_group",
+        "confidence_group": 0.9997491240501404,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "determine the count of old men with no bonnets and not carrying carriers",
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "value": "bonnets",
+        "entity": "hat",
+        "group": "hat_group"
+      },
+      {
+        "start": 51,
+        "end": 63,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 64,
+        "end": 72,
+        "value": "carriers",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 23,
+        "end": 30,
+        "confidence_entity": 0.9816917181015015,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 36,
+        "end": 38,
+        "confidence_entity": 0.9317020177841187,
+        "group": "bag_group",
+        "confidence_group": 0.9863337874412537,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 39,
+        "end": 46,
+        "confidence_entity": 0.9999161958694458,
+        "group": "hat_group",
+        "confidence_group": 0.9997842907905579,
+        "value": "bonnets",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 51,
+        "end": 63,
+        "confidence_entity": 0.9984130859375,
+        "group": "bag_group",
+        "confidence_group": 0.9964474439620972,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 64,
+        "end": 72,
+        "confidence_entity": 0.6403889656066895,
+        "group": "bag_group",
+        "confidence_group": 0.9973540306091309,
+        "value": "carriers",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Count all people who didn't cross line one or line three",
+    "entities": [
+      {
+        "start": 17,
+        "end": 33,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 46,
+        "end": 56,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 17,
+        "end": 33,
+        "confidence_entity": 0.9759202003479004,
+        "group": "trajectory_group",
+        "confidence_group": 0.9795111417770386,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 34,
+        "end": 45,
+        "confidence_entity": 0.789882481098175,
+        "group": "trajectory_group",
+        "confidence_group": 0.8901640772819519,
+        "value": "line one or",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 46,
+        "end": 56,
+        "confidence_entity": 0.9997647404670715,
+        "group": "trajectory_group",
+        "confidence_group": 0.999656081199646,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 34,
+        "end": 42,
+        "value": "line one",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 46,
+        "end": 56,
+        "value": "line three",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Which group won the competition?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 15,
+        "value": "1",
+        "entity": "group"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "yes, she is wearing a cowboy hat",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "value": "hat",
+        "entity": "hat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 9,
+        "end": 19,
+        "confidence_entity": 0.9995600581169128,
+        "group": "hat_group",
+        "confidence_group": 0.9972303509712219,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.9984089732170105,
+        "group": "hat_group",
+        "confidence_group": 0.6814271211624146,
+        "value": "cowboy",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hat",
+        "start": 29,
+        "end": 32,
+        "confidence_entity": 0.9979979395866394,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "totally, he has on a straw hat",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "value": "hat",
+        "entity": "hat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.9996716976165771,
+        "group": "hat_group",
+        "confidence_group": 0.9980529546737671,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.5563908219337463,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "indeed, he wears a trilby hat",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 19,
+        "end": 29,
+        "value": "hat",
+        "entity": "hat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9993605017662048,
+        "group": "hat_group",
+        "confidence_group": 0.9989504218101501,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.9892569184303284,
+        "group": "hat_group",
+        "confidence_group": 0.7823598384857178,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 26,
+        "end": 29,
+        "confidence_entity": 0.9854877591133118,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I don’t think so, he doesn't hold a case",
+    "entities": [
+      {
+        "start": 21,
+        "end": 33,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 6,
+        "end": 7,
+        "confidence_entity": 0.9978947043418884,
+        "group": "bag_group",
+        "confidence_group": 0.963140606880188,
+        "value": "t",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 21,
+        "end": 33,
+        "confidence_entity": 0.9982678890228271,
+        "group": "bag_group",
+        "confidence_group": 0.9923700094223022,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 36,
+        "end": 40,
+        "confidence_entity": 0.9894249439239502,
+        "group": "bag_group",
+        "confidence_group": 0.9967876672744751,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I’m sure not, he hasn't worn a beanie",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.7486590147018433,
+        "group": "hat_group",
+        "confidence_group": 0.837128758430481,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 17,
+        "end": 28,
+        "confidence_entity": 0.9961710572242737,
+        "group": "hat_group",
+        "confidence_group": 0.987413763999939,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.9990531802177429,
+        "group": "hat_group",
+        "confidence_group": 0.9984151124954224,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I’m afraid not, he doesn't have a cloche",
+    "entities": [
+      {
+        "start": 19,
+        "end": 31,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 34,
+        "end": 40,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.7546162009239197,
+        "group": "hat_group",
+        "confidence_group": 0.728826642036438,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 19,
+        "end": 31,
+        "confidence_entity": 0.9979009628295898,
+        "group": "hat_group",
+        "confidence_group": 0.9912978410720825,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 34,
+        "end": 40,
+        "confidence_entity": 0.9996102452278137,
+        "group": "hat_group",
+        "confidence_group": 0.9747878313064575,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "no way, he doesn't use a bowler hat",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 11,
+        "end": 22,
+        "confidence_entity": 0.9996647834777832,
+        "group": "hat_group",
+        "confidence_group": 0.9761124849319458,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 32,
+        "end": 35,
+        "confidence_entity": 0.9866966605186462,
+        "group": "hat_group",
+        "confidence_group": 0.997688889503479,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm not 100% sure.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "id",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.9994450211524963,
+        "value": "100",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you find an elderly man having a tote?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "value": "true",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 16,
+        "end": 27,
+        "confidence_entity": 0.996381402015686,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.9979680180549622,
+        "group": "hat_group",
+        "confidence_group": 0.7909253239631653,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.9911043643951416,
+        "group": "bag_group",
+        "confidence_group": 0.9872931241989136,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "there is a [girl] in the line one",
+    "entities": [
+      {
+        "start": 25,
+        "end": 33,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.9997565150260925,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 25,
+        "end": 33,
+        "confidence_entity": 0.9998630285263062,
+        "group": "trajectory_group",
+        "confidence_group": 0.9997847676277161,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 25,
+        "end": 33,
+        "value": "line one",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i'm searching a person that pass 3 time  for the line three",
+    "entities": [
+      {
+        "start": 49,
+        "end": 59,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.57505863904953,
+        "group": "trajectory_group",
+        "confidence_group": 0.4757874608039856,
+        "value": "time",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 49,
+        "end": 59,
+        "confidence_entity": 0.9997324347496033,
+        "group": "trajectory_group",
+        "confidence_group": 0.9995471835136414,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 49,
+        "end": 59,
+        "value": "line three",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I'm interested in find a aunt",
+    "entities": [
+      {
+        "start": 25,
+        "end": 29,
+        "value": "female",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm trying to find my dad. He has a beret",
+    "entities": [
+      {
+        "start": 22,
+        "end": 25,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 30,
+        "end": 33,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 36,
+        "end": 41,
+        "value": "beret",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 30,
+        "end": 33,
+        "confidence_entity": 0.998570442199707,
+        "group": "hat_group",
+        "confidence_group": 0.9957778453826904,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 36,
+        "end": 41,
+        "confidence_entity": 0.9989533424377441,
+        "group": "hat_group",
+        "confidence_group": 0.8932735919952393,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i hope to find an individal who not bring a knaspack and wearing a cap in the shopping line_3",
+    "entities": [
+      {
+        "start": 32,
+        "end": 41,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 44,
+        "end": 52,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      },
+      {
+        "start": 57,
+        "end": 64,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 67,
+        "end": 70,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 32,
+        "end": 41,
+        "confidence_entity": 0.9976593255996704,
+        "group": "bag_group",
+        "confidence_group": 0.9979436993598938,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 44,
+        "end": 52,
+        "confidence_entity": 0.998647153377533,
+        "group": "bag_group",
+        "confidence_group": 0.9996376037597656,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 57,
+        "end": 64,
+        "confidence_entity": 0.9983932375907898,
+        "group": "hat_group",
+        "confidence_group": 0.977408230304718,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 67,
+        "end": 70,
+        "confidence_entity": 0.9997492432594299,
+        "group": "hat_group",
+        "confidence_group": 0.999645471572876,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 71,
+        "end": 73,
+        "confidence_entity": 0.9979344606399536,
+        "group": "bag_group",
+        "confidence_group": 0.7681521773338318,
+        "value": "in",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "have you notice someone that not frequented the line three",
+    "entities": [
+      {
+        "start": 29,
+        "end": 43,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 48,
+        "end": 58,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 29,
+        "end": 32,
+        "confidence_entity": 0.9255019426345825,
+        "group": "trajectory_group",
+        "confidence_group": 0.9583755135536194,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 48,
+        "end": 58,
+        "confidence_entity": 0.9998503923416138,
+        "group": "trajectory_group",
+        "confidence_group": 0.9997672438621521,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 48,
+        "end": 58,
+        "value": "line three",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "have you see someone that doesn't pass 1 time for the line four",
+    "entities": [
+      {
+        "start": 26,
+        "end": 38,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 54,
+        "end": 63,
+        "value": "4",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 26,
+        "end": 38,
+        "confidence_entity": 0.9996849298477173,
+        "group": "trajectory_group",
+        "confidence_group": 0.9970128536224365,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 41,
+        "end": 45,
+        "confidence_entity": 0.966040849685669,
+        "group": "trajectory_group",
+        "confidence_group": 0.9613509178161621,
+        "value": "time",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 54,
+        "end": 63,
+        "confidence_entity": 0.9999141693115234,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998817443847656,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 54,
+        "end": 63,
+        "value": "line four",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "have you see a [boy] that stays in the line 2 but didn't pass near the line 2",
+    "entities": [
+      {
+        "start": 39,
+        "end": 45,
+        "value": "2",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 50,
+        "end": 61,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 71,
+        "end": 77,
+        "value": "2",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 16,
+        "end": 19,
+        "confidence_entity": 0.9855071306228638,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 39,
+        "end": 45,
+        "confidence_entity": 0.999886155128479,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998190999031067,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 50,
+        "end": 61,
+        "confidence_entity": 0.691314160823822,
+        "group": "trajectory_group",
+        "confidence_group": 0.8173657059669495,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 71,
+        "end": 77,
+        "confidence_entity": 0.9998268485069275,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998387098312378,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 39,
+        "end": 45,
+        "value": "line 2",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 71,
+        "end": 77,
+        "value": "line 2",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Did anyone not go into the line 2 and linger around it?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 14,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "value": "2",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.8874781131744385,
+        "group": "trajectory_group",
+        "confidence_group": 0.9577523469924927,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 15,
+        "end": 17,
+        "confidence_entity": 0.9954734444618225,
+        "group": "trajectory_group",
+        "confidence_group": 0.9995549321174622,
+        "value": "go",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.999117910861969,
+        "group": "trajectory_group",
+        "confidence_group": 0.9990450739860535,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 27,
+        "end": 33,
+        "value": "line 2",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Look for someone cross five times the line 1",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "value": "true",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "value": "5",
+        "entity": "number",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 38,
+        "end": 44,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 17,
+        "end": 22,
+        "confidence_entity": 0.999794065952301,
+        "group": "trajectory_group",
+        "confidence_group": 0.9974787831306458,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "number",
+        "start": 28,
+        "end": 33,
+        "confidence_entity": 0.995840847492218,
+        "group": "trajectory_group",
+        "confidence_group": 0.9897323250770569,
+        "value": "times",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 38,
+        "end": 44,
+        "confidence_entity": 0.9997703433036804,
+        "group": "trajectory_group",
+        "confidence_group": 0.9999364614486694,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 38,
+        "end": 44,
+        "value": "line 1",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Can you find a dude with a bag?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "value": "male",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.892297089099884,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.9035747051239014,
+        "group": "bag_group",
+        "confidence_group": 0.9485877156257629,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 27,
+        "end": 30,
+        "confidence_entity": 0.9980958104133606,
+        "group": "bag_group",
+        "confidence_group": 0.999076247215271,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Is there a girl wearing a hat?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "female",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.9998836517333984,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9985417127609253,
+        "group": "hat_group",
+        "confidence_group": 0.998772919178009,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 26,
+        "end": 29,
+        "confidence_entity": 0.9989455342292786,
+        "group": "hat_group",
+        "confidence_group": 0.9988791346549988,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Are there any sisters near the bag area?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 21,
+        "value": "female",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.5284257531166077,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 31,
+        "end": 34,
+        "confidence_entity": 0.9976630210876465,
+        "group": "bag_group",
+        "confidence_group": 0.9995330572128296,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Who is linked to ID6?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 20,
+        "value": "6",
+        "entity": "id"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm searching for a person, but I don't know their details",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 38,
+        "end": 39,
+        "confidence_entity": 0.9044100642204285,
+        "group": "trajectory_group",
+        "confidence_group": 0.9028753042221069,
+        "value": "t",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "It should be a mom",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "female",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "wife",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "female",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dude",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "male",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "everyone with wearing a head?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 21,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 24,
+        "end": 28,
+        "value": "head",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.998525083065033,
+        "group": "hat_group",
+        "confidence_group": 0.9974793791770935,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.9897505640983582,
+        "group": "hat_group",
+        "confidence_group": 0.9850242137908936,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.999922513961792,
+        "group": "hat_group",
+        "confidence_group": 0.9997014403343201,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "know the quantity of people no cap",
+    "entities": [
+      {
+        "start": 28,
+        "end": 30,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 31,
+        "end": 34,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 28,
+        "end": 30,
+        "confidence_entity": 0.7848581671714783,
+        "group": "hat_group",
+        "confidence_group": 0.7706286311149597,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 31,
+        "end": 34,
+        "confidence_entity": 0.8897672295570374,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how many guys are putting on helmets and without a sack",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 18,
+        "end": 28,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 29,
+        "end": 36,
+        "value": "helmets",
+        "entity": "hat",
+        "group": "hat_group"
+      },
+      {
+        "start": 41,
+        "end": 48,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 51,
+        "end": 55,
+        "value": "sack",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.9983652234077454,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.9998098015785217,
+        "group": "hat_group",
+        "confidence_group": 0.9861137270927429,
+        "value": "putting",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hat",
+        "start": 29,
+        "end": 36,
+        "confidence_entity": 0.9990242719650269,
+        "group": "hat_group",
+        "confidence_group": 0.9997041821479797,
+        "value": "helmets",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 41,
+        "end": 48,
+        "confidence_entity": 0.8205432295799255,
+        "group": "bag_group",
+        "confidence_group": 0.5325808525085449,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 51,
+        "end": 55,
+        "confidence_entity": 0.9994791150093079,
+        "group": "bag_group",
+        "confidence_group": 0.9998297691345215,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Find people who crossed less than two times on line two",
+    "entities": [
+      {
+        "start": 12,
+        "end": 23,
+        "value": "true",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "value": "less",
+        "entity": "condition",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "value": "2",
+        "entity": "number",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 47,
+        "end": 55,
+        "value": "2",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 12,
+        "end": 23,
+        "confidence_entity": 0.9992631077766418,
+        "group": "trajectory_group",
+        "confidence_group": 0.995876133441925,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "condition",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.8634553551673889,
+        "group": "trajectory_group",
+        "confidence_group": 0.9669902920722961,
+        "value": "less",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "number",
+        "start": 34,
+        "end": 46,
+        "confidence_entity": 0.9918251037597656,
+        "group": "trajectory_group",
+        "confidence_group": 0.7192594408988953,
+        "value": "two times on",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 47,
+        "end": 55,
+        "confidence_entity": 0.9995436072349548,
+        "group": "trajectory_group",
+        "confidence_group": 0.9991587400436401,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "number",
+        "start": 34,
+        "end": 43,
+        "value": "two times",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 47,
+        "end": 55,
+        "value": "line two",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What group is number three in the ranking?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 26,
+        "value": "3",
+        "entity": "group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "group",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.988865315914154,
+        "value": "number",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "number",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.9234391450881958,
+        "value": "three",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "This is the best day ever",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.9166660308837891,
+        "group": "hat_group",
+        "confidence_group": 0.8022753596305847,
+        "value": "best",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.7221848368644714,
+        "value": "day",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes, he carries a crossbody bag",
+    "entities": [
+      {
+        "start": 8,
+        "end": 15,
+        "value": "true",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 18,
+        "end": 31,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 8,
+        "end": 15,
+        "confidence_entity": 0.9992014765739441,
+        "group": "bag_group",
+        "confidence_group": 0.999605119228363,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.9992534518241882,
+        "group": "trajectory_group",
+        "confidence_group": 0.8835770487785339,
+        "value": "crossbody",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "bag",
+        "start": 28,
+        "end": 31,
+        "confidence_entity": 0.9418303370475769,
+        "group": "bag_group",
+        "confidence_group": 0.9907993674278259,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "does not wear it",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.9970531463623047,
+        "group": "hat_group",
+        "confidence_group": 0.9126611351966858,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "No, that’s not the case.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.7453945279121399,
+        "group": "bag_group",
+        "confidence_group": 0.9140201210975647,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.9995744824409485,
+        "group": "bag_group",
+        "confidence_group": 0.9995871186256409,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My knowledge about the individual is limited to what has been shared.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 53,
+        "end": 61,
+        "confidence_entity": 0.5534548759460449,
+        "group": "trajectory_group",
+        "confidence_group": 0.53,
+        "value": "has been",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "negative, he doesn't hold a crossbody bag",
+    "entities": [
+      {
+        "start": 13,
+        "end": 25,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 28,
+        "end": 41,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 13,
+        "end": 25,
+        "confidence_entity": 0.995501697063446,
+        "group": "bag_group",
+        "confidence_group": 0.9863402843475342,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 28,
+        "end": 37,
+        "confidence_entity": 0.9985974431037903,
+        "group": "trajectory_group",
+        "confidence_group": 0.5503706932067871,
+        "value": "crossbody",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "bag",
+        "start": 38,
+        "end": 41,
+        "confidence_entity": 0.9600503444671631,
+        "group": "bag_group",
+        "confidence_group": 0.9869459271430969,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I don’t believe so, she doesn't use a knapsack",
+    "entities": [
+      {
+        "start": 24,
+        "end": 35,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 38,
+        "end": 46,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 6,
+        "end": 7,
+        "confidence_entity": 0.9162122011184692,
+        "group": "bag_group",
+        "confidence_group": 0.9744693040847778,
+        "value": "t",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 24,
+        "end": 35,
+        "confidence_entity": 0.9808443784713745,
+        "group": "bag_group",
+        "confidence_group": 0.9863553643226624,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 38,
+        "end": 46,
+        "confidence_entity": 0.999916672706604,
+        "group": "bag_group",
+        "confidence_group": 0.9998502731323242,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "perhaps",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hat",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9243959188461304,
+        "group": "hat_group",
+        "confidence_group": 0.5743303894996643,
+        "value": "perhaps",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Have you noticed a girl with a backpack?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "female",
+        "entity": "gender"
+      },
+      {
+        "start": 24,
+        "end": 28,
+        "value": "true",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.9995349645614624,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.9996646642684937,
+        "group": "bag_group",
+        "confidence_group": 0.9998270869255066,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "have you seen a person that pass the line 1 for four times",
+    "entities": [
+      {
+        "start": 37,
+        "end": 43,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "trajectory",
+        "start": 37,
+        "end": 43,
+        "confidence_entity": 0.9952576756477356,
+        "group": "trajectory_group",
+        "confidence_group": 0.9980729818344116,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "number",
+        "start": 48,
+        "end": 52,
+        "confidence_entity": 0.9891442656517029,
+        "group": "trajectory_group",
+        "confidence_group": 0.9981558918952942,
+        "value": "four",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "number",
+        "start": 48,
+        "end": 58,
+        "value": "four times",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 37,
+        "end": 43,
+        "value": "line 1",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "there is a person that pass for five times for the line 2",
+    "entities": [
+      {
+        "start": 51,
+        "end": 57,
+        "value": "2",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.6038874387741089,
+        "group": "trajectory_group",
+        "confidence_group": 0.8408656120300293,
+        "value": "five",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 51,
+        "end": 57,
+        "confidence_entity": 0.9998435974121094,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998756647109985,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 51,
+        "end": 57,
+        "value": "line 2",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I want a person without a beanie and with backpack",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "value": "true",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 42,
+        "end": 50,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9996032118797302,
+        "group": "bag_group",
+        "confidence_group": 0.9278160929679871,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.999869704246521,
+        "group": "hat_group",
+        "confidence_group": 0.9998681545257568,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 42,
+        "end": 50,
+        "confidence_entity": 0.9996446371078491,
+        "group": "bag_group",
+        "confidence_group": 0.9997020363807678,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i hope to find an individal with a cap and not dress in a sack line_3.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 35,
+        "end": 38,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      },
+      {
+        "start": 43,
+        "end": 55,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 58,
+        "end": 62,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 28,
+        "end": 32,
+        "confidence_entity": 0.9960231781005859,
+        "group": "hat_group",
+        "confidence_group": 0.9897958636283875,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 35,
+        "end": 38,
+        "confidence_entity": 0.9982483386993408,
+        "group": "hat_group",
+        "confidence_group": 0.9995570778846741,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 43,
+        "end": 46,
+        "confidence_entity": 0.8107951879501343,
+        "group": "bag_group",
+        "confidence_group": 0.6089349389076233,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 47,
+        "end": 52,
+        "confidence_entity": 0.8905873894691467,
+        "group": "hat_group",
+        "confidence_group": 0.5410559773445129,
+        "value": "dress",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "bag",
+        "start": 58,
+        "end": 62,
+        "confidence_entity": 0.9998553991317749,
+        "group": "bag_group",
+        "confidence_group": 0.999885082244873,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i hope to find a human being who takes a bag and not a topper in the shopping line_3",
+    "entities": [
+      {
+        "start": 33,
+        "end": 38,
+        "value": "true",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 41,
+        "end": 44,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      },
+      {
+        "start": 49,
+        "end": 52,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 17,
+        "end": 22,
+        "confidence_entity": 0.9986733198165894,
+        "value": "human",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.9950473308563232,
+        "group": "bag_group",
+        "confidence_group": 0.9730696678161621,
+        "value": "being",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.9956037998199463,
+        "group": "bag_group",
+        "confidence_group": 0.9627007842063904,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 41,
+        "end": 44,
+        "confidence_entity": 0.9850900173187256,
+        "group": "bag_group",
+        "confidence_group": 0.9788668751716614,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 49,
+        "end": 52,
+        "confidence_entity": 0.9932587146759033,
+        "group": "bag_group",
+        "confidence_group": 0.9752503633499146,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 55,
+        "end": 61,
+        "confidence_entity": 0.9998288154602051,
+        "group": "hat_group",
+        "confidence_group": 0.9996987581253052,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "have you see someone that doesn't spend time in the line three",
+    "entities": [
+      {
+        "start": 26,
+        "end": 47,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 52,
+        "end": 62,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.9992175102233887,
+        "group": "trajectory_group",
+        "confidence_group": 0.9969354867935181,
+        "value": "doesn't",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 45,
+        "end": 47,
+        "confidence_entity": 0.7701223492622375,
+        "group": "trajectory_group",
+        "confidence_group": 0.9176635146141052,
+        "value": "in",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 52,
+        "end": 62,
+        "confidence_entity": 0.9997454285621643,
+        "group": "trajectory_group",
+        "confidence_group": 0.999871015548706,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 52,
+        "end": 62,
+        "value": "line three",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "have you see someone not in for the line 3 12 times",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.9958159327507019,
+        "group": "trajectory_group",
+        "confidence_group": 0.9983125925064087,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 36,
+        "end": 42,
+        "confidence_entity": 0.9996906518936157,
+        "group": "trajectory_group",
+        "confidence_group": 0.9997844099998474,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 36,
+        "end": 42,
+        "value": "line 3",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Did anyone avoid  entering the line 4 and stay nearby?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "true",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "4",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "trajectory",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.999240517616272,
+        "group": "trajectory_group",
+        "confidence_group": 0.9997566342353821,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 31,
+        "end": 37,
+        "value": "line 4",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Is there a female on line 2?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "female",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.790669858455658,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.9998123049736023,
+        "group": "trajectory_group",
+        "confidence_group": 0.9999499320983887,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 21,
+        "end": 27,
+        "value": "line 2",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Did any mother cross line 4 and line one?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "female",
+        "entity": "gender"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "value": "4",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 32,
+        "end": 40,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 8,
+        "end": 14,
+        "confidence_entity": 0.9996964931488037,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.9741482734680176,
+        "group": "trajectory_group",
+        "confidence_group": 0.9807789325714111,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.9995439648628235,
+        "group": "trajectory_group",
+        "confidence_group": 0.9999504089355469,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 32,
+        "end": 40,
+        "confidence_entity": 0.9995378255844116,
+        "group": "trajectory_group",
+        "confidence_group": 0.99986732006073,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 21,
+        "end": 27,
+        "value": "line 4",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 32,
+        "end": 40,
+        "value": "line one",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Is there a person who crossed line one, line three, and line four?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "unknown",
+        "entity": "gender"
+      },
+      {
+        "start": 30,
+        "end": 38,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 40,
+        "end": 50,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 56,
+        "end": 65,
+        "value": "4",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 18,
+        "end": 29,
+        "confidence_entity": 0.9798827767372131,
+        "group": "trajectory_group",
+        "confidence_group": 0.9832322001457214,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 30,
+        "end": 38,
+        "confidence_entity": 0.998426079750061,
+        "group": "trajectory_group",
+        "confidence_group": 0.9997187256813049,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 40,
+        "end": 50,
+        "confidence_entity": 0.9987521171569824,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998003840446472,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 56,
+        "end": 65,
+        "confidence_entity": 0.9987688660621643,
+        "group": "trajectory_group",
+        "confidence_group": 0.99875807762146,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 30,
+        "end": 38,
+        "value": "line one",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 40,
+        "end": 50,
+        "value": "line three",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 56,
+        "end": 65,
+        "value": "line four",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I need to find someone, but I don't have information",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 34,
+        "end": 35,
+        "confidence_entity": 0.6168552041053772,
+        "value": "t",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "count the boys with  a hat",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 15,
+        "end": 19,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 23,
+        "end": 26,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.999749481678009,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 23,
+        "end": 26,
+        "confidence_entity": 0.996063768863678,
+        "group": "hat_group",
+        "confidence_group": 0.9989528656005859,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "count everyone without a purse",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "bag",
+        "entity": "hat",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.9995343685150146,
+        "group": "bag_group",
+        "confidence_group": 0.9997139573097229,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 25,
+        "end": 30,
+        "confidence_entity": 0.999840497970581,
+        "group": "bag_group",
+        "confidence_group": 0.9999204874038696,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i am searching every wives not wear topper",
+    "entities": [
+      {
+        "start": 21,
+        "end": 26,
+        "value": "female",
+        "entity": "gender"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.927419126033783,
+        "group": "hat_group",
+        "confidence_group": 0.6249012351036072,
+        "value": "every",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.6800532341003418,
+        "group": "hat_group",
+        "confidence_group": 0.8874009847640991,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.8712536692619324,
+        "group": "hat_group",
+        "confidence_group": 0.9239597916603088,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 36,
+        "end": 42,
+        "confidence_entity": 0.9997277855873108,
+        "group": "hat_group",
+        "confidence_group": 0.9992678761482239,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "identify the ladies with no purses and without a helmet",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "female",
+        "entity": "gender"
+      },
+      {
+        "start": 25,
+        "end": 27,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "value": "purses",
+        "entity": "bag",
+        "group": "bag_group"
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 49,
+        "end": 55,
+        "value": "helmet",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.9997202754020691,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.3850364089012146,
+        "group": "hat_group",
+        "confidence_group": 0.7971360683441162,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.9987572431564331,
+        "group": "bag_group",
+        "confidence_group": 0.9728354215621948,
+        "value": "purses",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 39,
+        "end": 46,
+        "confidence_entity": 0.9981985688209534,
+        "group": "hat_group",
+        "confidence_group": 0.9982959628105164,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 49,
+        "end": 55,
+        "confidence_entity": 0.9989756345748901,
+        "group": "hat_group",
+        "confidence_group": 0.9989092350006104,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Count every man cross more than three times along the line 1",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "true",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 22,
+        "end": 31,
+        "value": "more",
+        "entity": "condition",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 32,
+        "end": 43,
+        "value": "3",
+        "entity": "number",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 54,
+        "end": 60,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 12,
+        "end": 15,
+        "confidence_entity": 0.9836183190345764,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.9998606443405151,
+        "group": "trajectory_group",
+        "confidence_group": 0.9995668530464172,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "condition",
+        "start": 22,
+        "end": 31,
+        "confidence_entity": 0.9825344681739807,
+        "group": "trajectory_group",
+        "confidence_group": 0.9877062439918518,
+        "value": "more",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "number",
+        "start": 32,
+        "end": 43,
+        "confidence_entity": 0.9977329969406128,
+        "group": "trajectory_group",
+        "confidence_group": 0.9991507530212402,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 54,
+        "end": 60,
+        "confidence_entity": 0.999695897102356,
+        "group": "trajectory_group",
+        "confidence_group": 0.9999411106109619,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "number",
+        "start": 32,
+        "end": 43,
+        "value": "three times",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 54,
+        "end": 60,
+        "value": "line 1",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Who is the champion group?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "1",
+        "entity": "group"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hey dude",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.9399038553237915,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "exactly",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.5870334506034851,
+        "value": "exactly",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "yes, she is wearing a beret",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 22,
+        "end": 27,
+        "value": "hat",
+        "entity": "hat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 9,
+        "end": 19,
+        "confidence_entity": 0.9971291422843933,
+        "group": "hat_group",
+        "confidence_group": 0.9974907636642456,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.9993890523910522,
+        "group": "hat_group",
+        "confidence_group": 0.9622392058372498,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "yes, she wears a trendy fedora",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 17,
+        "end": 30,
+        "value": "hat",
+        "entity": "hat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9992000460624695,
+        "group": "hat_group",
+        "confidence_group": 0.9989018440246582,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 17,
+        "end": 23,
+        "confidence_entity": 0.993977427482605,
+        "group": "hat_group",
+        "confidence_group": 0.9192504286766052,
+        "value": "trendy",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hat",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.9978063702583313,
+        "group": "hat_group",
+        "confidence_group": 0.9871447682380676,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "yes, she has on a pillbox hat",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 18,
+        "end": 29,
+        "value": "hat",
+        "entity": "hat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 9,
+        "end": 15,
+        "confidence_entity": 0.9965493679046631,
+        "group": "hat_group",
+        "confidence_group": 0.9987375140190125,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 18,
+        "end": 29,
+        "confidence_entity": 0.9977617263793945,
+        "group": "hat_group",
+        "confidence_group": 0.6915183067321777,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "definitely, she wears a fedora",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "hat",
+        "entity": "hat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.9984116554260254,
+        "group": "hat_group",
+        "confidence_group": 0.9978377223014832,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.9988813996315002,
+        "group": "hat_group",
+        "confidence_group": 0.9942718744277954,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I think I've provided everything I know.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "id",
+        "start": 33,
+        "end": 34,
+        "confidence_entity": 0.6737271547317505,
+        "value": "I",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nope, he doesn't wear a boater hat",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 9,
+        "end": 21,
+        "confidence_entity": 0.997611403465271,
+        "group": "hat_group",
+        "confidence_group": 0.9970893263816833,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.996526300907135,
+        "value": "boater",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hat",
+        "start": 31,
+        "end": 34,
+        "confidence_entity": 0.5076318979263306,
+        "group": "hat_group",
+        "confidence_group": 0.8772634267807007,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "absolutely not, she doesn't put on a visor",
+    "entities": [
+      {
+        "start": 20,
+        "end": 34,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 20,
+        "end": 34,
+        "confidence_entity": 0.9971150159835815,
+        "group": "hat_group",
+        "confidence_group": 0.9885733127593994,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.9983969330787659,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I lost my daughter",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "female",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Are there any males wearing a tam?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 30,
+        "end": 33,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.9998181462287903,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 30,
+        "end": 33,
+        "confidence_entity": 0.9995878338813782,
+        "group": "hat_group",
+        "confidence_group": 0.9984652996063232,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can you identify a male having a rucksack and not wearing a helmet?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "true",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      },
+      {
+        "start": 46,
+        "end": 57,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 60,
+        "end": 66,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.9998270869255066,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.9891127943992615,
+        "group": "hat_group",
+        "confidence_group": 0.8406863212585449,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 33,
+        "end": 41,
+        "confidence_entity": 0.9997846484184265,
+        "group": "bag_group",
+        "confidence_group": 0.9998112320899963,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 46,
+        "end": 49,
+        "confidence_entity": 0.9466951489448547,
+        "group": "bag_group",
+        "confidence_group": 0.9849579334259033,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 50,
+        "end": 57,
+        "confidence_entity": 0.675208330154419,
+        "group": "hat_group",
+        "confidence_group": 0.5913174748420715,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 60,
+        "end": 66,
+        "confidence_entity": 0.9996970891952515,
+        "group": "hat_group",
+        "confidence_group": 0.9998313188552856,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "have you seen a daughter in the line one?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "female",
+        "entity": "gender"
+      },
+      {
+        "start": 32,
+        "end": 40,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "trajectory",
+        "start": 32,
+        "end": 40,
+        "confidence_entity": 0.9998917579650879,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998972415924072,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 32,
+        "end": 40,
+        "value": "line one",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "have you seen a [guy] in the line one",
+    "entities": [
+      {
+        "start": 29,
+        "end": 37,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.9999465942382812,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 29,
+        "end": 37,
+        "confidence_entity": 0.9998958110809326,
+        "group": "trajectory_group",
+        "confidence_group": 0.9999006986618042,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 29,
+        "end": 37,
+        "value": "line one",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "there is dude that stay in the line one",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "trajectory",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.9999204874038696,
+        "group": "trajectory_group",
+        "confidence_group": 0.9999163150787354,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 31,
+        "end": 39,
+        "value": "line one",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "have you seen a [guy] in the line 1",
+    "entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.9999309778213501,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.9998689889907837,
+        "group": "trajectory_group",
+        "confidence_group": 0.9999017715454102,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 29,
+        "end": 35,
+        "value": "line 1",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Can you find a nephew without",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 22,
+        "end": 29,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 22,
+        "end": 29,
+        "confidence_entity": 0.9990610480308533,
+        "group": "hat_group",
+        "confidence_group": 0.7338394522666931,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "have you notice a stepbrother that didn't pass for the line 1 but pass for the line 1",
+    "entities": [
+      {
+        "start": 18,
+        "end": 29,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 35,
+        "end": 46,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 79,
+        "end": 85,
+        "value": "1",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 18,
+        "end": 29,
+        "confidence_entity": 0.9906946420669556,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 35,
+        "end": 46,
+        "confidence_entity": 0.9583608508110046,
+        "group": "trajectory_group",
+        "confidence_group": 0.9856007695198059,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 55,
+        "end": 61,
+        "confidence_entity": 0.9997976422309875,
+        "group": "trajectory_group",
+        "confidence_group": 0.9997633099555969,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 66,
+        "end": 70,
+        "confidence_entity": 0.9918986558914185,
+        "group": "trajectory_group",
+        "confidence_group": 0.9967634677886963,
+        "value": "pass",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 79,
+        "end": 85,
+        "confidence_entity": 0.9998931884765625,
+        "group": "trajectory_group",
+        "confidence_group": 0.9998705387115479,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 55,
+        "end": 61,
+        "value": "line 1",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 79,
+        "end": 85,
+        "value": "line 1",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Can you identify someone that not visited the line 3 but remained in its surroundings?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 33,
+        "value": "false",
+        "entity": "is_with",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 46,
+        "end": 52,
+        "value": "3",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 30,
+        "end": 33,
+        "confidence_entity": 0.9841969609260559,
+        "group": "trajectory_group",
+        "confidence_group": 0.981517493724823,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 46,
+        "end": 52,
+        "confidence_entity": 0.9997875094413757,
+        "group": "trajectory_group",
+        "confidence_group": 0.9996887445449829,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 73,
+        "end": 85,
+        "confidence_entity": 0.9847202301025391,
+        "group": "trajectory_group",
+        "confidence_group": 0.7490789890289307,
+        "value": "surroundings",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "trajectory",
+        "start": 46,
+        "end": 52,
+        "value": "line 3",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Do you see a gal with a hat on line 4?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 16,
+        "value": "female",
+        "entity": "gender"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "4",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 13,
+        "end": 16,
+        "confidence_entity": 0.9997801184654236,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9974561333656311,
+        "group": "hat_group",
+        "confidence_group": 0.9738987684249878,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 24,
+        "end": 27,
+        "confidence_entity": 0.7811979055404663,
+        "group": "hat_group",
+        "confidence_group": 0.8988775014877319,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.9998880624771118,
+        "group": "trajectory_group",
+        "confidence_group": 0.9999253749847412,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 31,
+        "end": 37,
+        "value": "line 4",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Did a daughter cross line 2 and line 4?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "female",
+        "entity": "gender"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "value": "2",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "value": "4",
+        "entity": "trajectory",
+        "group": "trajectory_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 6,
+        "end": 14,
+        "confidence_entity": 0.9496539831161499,
+        "value": "female",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.6013221144676208,
+        "group": "trajectory_group",
+        "confidence_group": 0.8154057860374451,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.9990699887275696,
+        "group": "trajectory_group",
+        "confidence_group": 0.9985368251800537,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 32,
+        "end": 38,
+        "confidence_entity": 0.9998225569725037,
+        "group": "trajectory_group",
+        "confidence_group": 0.9997190833091736,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "trajectory",
+        "start": 21,
+        "end": 27,
+        "value": "line 2",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "trajectory",
+        "start": 32,
+        "end": 38,
+        "value": "line 4",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I need information regarding I'd 5.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 34,
+        "value": "5",
+        "entity": "id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "id",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.5052498579025269,
+        "value": "I",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "id",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.9993626475334167,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm asking if you can locate someone without info",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 37,
+        "end": 44,
+        "confidence_entity": 0.9998843669891357,
+        "group": "bag_group",
+        "confidence_group": 0.9548670053482056,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Determine how many people not puts on a bag and have sombrero",
+    "entities": [
+      {
+        "start": 26,
+        "end": 37,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 40,
+        "end": 43,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      },
+      {
+        "start": 48,
+        "end": 52,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 53,
+        "end": 61,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 26,
+        "end": 29,
+        "confidence_entity": 0.998878538608551,
+        "group": "hat_group",
+        "confidence_group": 0.6545586585998535,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 30,
+        "end": 37,
+        "confidence_entity": 0.998379111289978,
+        "group": "hat_group",
+        "confidence_group": 0.9894769191741943,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 40,
+        "end": 43,
+        "confidence_entity": 0.9557181000709534,
+        "group": "bag_group",
+        "confidence_group": 0.9219109416007996,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 48,
+        "end": 52,
+        "confidence_entity": 0.9992235898971558,
+        "group": "hat_group",
+        "confidence_group": 0.99443119764328,
+        "value": "true",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 53,
+        "end": 61,
+        "confidence_entity": 0.999432384967804,
+        "group": "hat_group",
+        "confidence_group": 0.9992915391921997,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "assess the number of individuals haven't a bag and don't wear fedora",
+    "entities": [
+      {
+        "start": 33,
+        "end": 40,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 43,
+        "end": 46,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      },
+      {
+        "start": 51,
+        "end": 61,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 62,
+        "end": 68,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 33,
+        "end": 40,
+        "confidence_entity": 0.9995119571685791,
+        "group": "hat_group",
+        "confidence_group": 0.8386623859405518,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 43,
+        "end": 46,
+        "confidence_entity": 0.550114095211029,
+        "group": "bag_group",
+        "confidence_group": 0.9601888060569763,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 51,
+        "end": 61,
+        "confidence_entity": 0.9981291890144348,
+        "group": "hat_group",
+        "confidence_group": 0.6009811162948608,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 62,
+        "end": 68,
+        "confidence_entity": 0.9994926452636719,
+        "group": "hat_group",
+        "confidence_group": 0.9998432397842407,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "look for everybody with carrie and not headgar",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "true",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "bag",
+        "entity": "bag",
+        "group": "bag_group"
+      },
+      {
+        "start": 35,
+        "end": 38,
+        "value": "false",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "value": "hat",
+        "entity": "hat",
+        "group": "hat_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "is_with",
+        "start": 19,
+        "end": 30,
+        "confidence_entity": 0.4987320899963379,
+        "group": "hat_group",
+        "confidence_group": 0.8565841317176819,
+        "value": "with carrie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "is_with",
+        "start": 35,
+        "end": 38,
+        "confidence_entity": 0.999752938747406,
+        "group": "hat_group",
+        "confidence_group": 0.9493268728256226,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 39,
+        "end": 46,
+        "confidence_entity": 0.9993190765380859,
+        "group": "hat_group",
+        "confidence_group": 0.9992954730987549,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how many young men are with a topper and not luggage",
+    "entities": [
+      {
+        "start": 9,
+        "end": 18,
+        "value": "male",
+        "entity": "gender"
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "value": "true",
+        "entity": "is_with",
+        "group": "hat_group"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "value": "topper",
+        "entity": "hat",
+        "group": "hat_group"
+      },
+      {
+        "start": 41,
+        "end": 44,
+        "value": "false",
+        "entity": "is_with",
+        "group": "bag_group"
+      },
+      {
+        "start": 45,
+        "end": 52,
+        "value": "luggage",
+        "entity": "bag",
+        "group": "bag_group"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 9,
+        "end": 18,
+        "confidence_entity": 0.9938160181045532,
+        "value": "male",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "hat",
+        "start": 30,
+        "end": 36,
+        "confidence_entity": 0.999810516834259,
+        "group": "hat_group",
+        "confidence_group": 0.9998617172241211,
+        "value": "hat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "is_with",
+        "start": 41,
+        "end": 44,
+        "confidence_entity": 0.8913601040840149,
+        "group": "bag_group",
+        "confidence_group": 0.984701931476593,
+        "value": "false",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "bag",
+        "start": 45,
+        "end": 52,
+        "confidence_entity": 0.9996442794799805,
+        "group": "bag_group",
+        "confidence_group": 0.9998946189880371,
+        "value": "bag",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

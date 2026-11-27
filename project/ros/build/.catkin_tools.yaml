@@ -1,0 +1,6 @@
+devel_space: /home/pietro/Desktop/cogrob_ws/ros/devel
+install: false
+install_space: /home/pietro/Desktop/cogrob_ws/ros/install
+profile: default
+source_space: /home/pietro/Desktop/cogrob_ws/ros/src
+workspace: /home/pietro/Desktop/cogrob_ws/ros

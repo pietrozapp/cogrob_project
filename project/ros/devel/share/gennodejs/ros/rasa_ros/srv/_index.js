@@ -1,0 +1,1 @@
+/home/pietro/Desktop/cogrob_ws/ros/devel/.private/rasa_ros/share/gennodejs/ros/rasa_ros/srv/_index.js

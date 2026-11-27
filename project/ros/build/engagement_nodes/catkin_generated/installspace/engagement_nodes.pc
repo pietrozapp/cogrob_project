@@ -1,0 +1,8 @@
+prefix=/home/pietro/Desktop/cogrob_ws/ros/install
+
+Name: engagement_nodes
+Description: Description of engagement_nodes
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

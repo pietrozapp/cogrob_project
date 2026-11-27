@@ -1,0 +1,1 @@
+/home/pietro/Desktop/cogrob_ws/ros/devel/.private/pepper_nodes/share/gennodejs/ros/pepper_nodes/_index.js

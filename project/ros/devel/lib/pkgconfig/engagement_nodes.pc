@@ -1,0 +1,1 @@
+/home/pietro/Desktop/cogrob_ws/ros/devel/.private/engagement_nodes/lib/pkgconfig/engagement_nodes.pc

@@ -1,0 +1,1362 @@
+[
+  {
+    "text": "greetings",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4203050434589386
+    }
+  },
+  {
+    "text": "what's up",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "purpose_bot",
+      "confidence": 0.14434602856636047
+    }
+  },
+  {
+    "text": "good day",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.504706621170044
+    }
+  },
+  {
+    "text": "greetings and salutations",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.2859729528427124
+    }
+  },
+  {
+    "text": "what's new",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.3351805508136749
+    }
+  },
+  {
+    "text": "I am very happy today",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9734375476837158
+    }
+  },
+  {
+    "text": "I'm so happy right now",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.942237138748169
+    }
+  },
+  {
+    "text": "I'm feeling so positive",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8551161885261536
+    }
+  },
+  {
+    "text": "Today feels magical",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9911439418792725
+    }
+  },
+  {
+    "text": "I'm extremely pleased",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.6549334526062012
+    }
+  },
+  {
+    "text": "I'm upset",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.5912864208221436
+    }
+  },
+  {
+    "text": "I'm so annoyed",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9072363972663879
+    }
+  },
+  {
+    "text": "Nothing makes sense anymore",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "explain",
+      "confidence": 0.37883082032203674
+    }
+  },
+  {
+    "text": "I'm exhausted and upset",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "stop_form",
+      "confidence": 0.5068584680557251
+    }
+  },
+  {
+    "text": "I can't handle this anymore",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "stop_form",
+      "confidence": 0.38020989298820496
+    }
+  },
+  {
+    "text": "thanks, bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.9199126362800598
+    }
+  },
+  {
+    "text": "see ya",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6325317025184631
+    }
+  },
+  {
+    "text": "see you",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6983042359352112
+    }
+  },
+  {
+    "text": "I'm off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.2673872709274292
+    }
+  },
+  {
+    "text": "see you again",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9458865523338318
+    }
+  },
+  {
+    "text": "see you when I see you",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9369046688079834
+    }
+  },
+  {
+    "text": "What areas do you specialize in?",
+    "intent": "purpose_bot",
+    "intent_prediction": {
+      "name": "explain",
+      "confidence": 0.3177894055843353
+    }
+  },
+  {
+    "text": "Of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.329513281583786
+    }
+  },
+  {
+    "text": "Never",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.32000118494033813
+    }
+  },
+  {
+    "text": "I don't have any more details about the individual.",
+    "intent": "stop_form",
+    "intent_prediction": {
+      "name": "ask_id",
+      "confidence": 0.7645267248153687
+    }
+  },
+  {
+    "text": "I can't offer any more details regarding that individual.",
+    "intent": "stop_form",
+    "intent_prediction": {
+      "name": "ask_id",
+      "confidence": 0.9905141592025757
+    }
+  },
+  {
+    "text": "i don't know",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "stop_form",
+      "confidence": 0.7878981232643127
+    }
+  },
+  {
+    "text": "Dunno",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.914919912815094
+    }
+  },
+  {
+    "text": "I don't possess that information.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "stop_form",
+      "confidence": 0.8897897005081177
+    }
+  },
+  {
+    "text": "I don't possess that knowledge.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "stop_form",
+      "confidence": 0.9837602376937866
+    }
+  },
+  {
+    "text": "I don't have that data.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "stop_form",
+      "confidence": 0.9723861217498779
+    }
+  },
+  {
+    "text": "maybe",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "inform_info",
+      "confidence": 0.6683567762374878
+    }
+  },
+  {
+    "text": "I haven’t figured it out yet.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5295574069023132
+    }
+  },
+  {
+    "text": "He is a male.",
+    "intent": "ask_with_info",
+    "intent_prediction": {
+      "name": "inform_info",
+      "confidence": 0.9845821261405945
+    }
+  },
+  {
+    "text": "What do you need that information for?",
+    "intent": "explain",
+    "intent_prediction": {
+      "name": "purpose_bot",
+      "confidence": 0.7374600172042847
+    }
+  },
+  {
+    "text": "the gentleman",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "the lady",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "How many person are there?",
+    "intent": "count_people",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.41182947158813477
+    }
+  },
+  {
+    "text": "Tell me the first group.",
+    "intent": "group_position",
+    "intent_prediction": {
+      "name": "group_components",
+      "confidence": 0.5516221523284912
+    }
+  },
+  {
+    "text": "Can you tell me the winning group?",
+    "intent": "group_position",
+    "intent_prediction": {
+      "name": "group_components",
+      "confidence": 0.6705656051635742
+    }
+  },
+  {
+    "text": "good to see you",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.94190913438797
+    }
+  },
+  {
+    "text": "how are things",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.856980562210083
+    }
+  },
+  {
+    "text": "I'm so thrilled",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.3300715386867523
+    }
+  },
+  {
+    "text": "I'm so content",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.5501574873924255
+    }
+  },
+  {
+    "text": "I'm having such a good day",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5909529328346252
+    }
+  },
+  {
+    "text": "I'm feeling awful",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8776527643203735
+    }
+  },
+  {
+    "text": "I'm not okay",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.9546827077865601
+    }
+  },
+  {
+    "text": "Thanks for your help!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "purpose_bot",
+      "confidence": 0.8412960767745972
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9363172650337219
+    }
+  },
+  {
+    "text": "have a good one",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_specific",
+      "confidence": 0.5007122159004211
+    }
+  },
+  {
+    "text": "have a great day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9375280141830444
+    }
+  },
+  {
+    "text": "ciao",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.20441573858261108
+    }
+  },
+  {
+    "text": "till we meet again",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9881601333618164
+    }
+  },
+  {
+    "text": "stay safe",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "I’m leaving now",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.2892187833786011
+    }
+  },
+  {
+    "text": "Can you provide information about your skills?",
+    "intent": "purpose_bot",
+    "intent_prediction": {
+      "name": "ask_id",
+      "confidence": 0.45333388447761536
+    }
+  },
+  {
+    "text": "How do I ask you questions?",
+    "intent": "purpose_bot",
+    "intent_prediction": {
+      "name": "stop_form",
+      "confidence": 0.7579907178878784
+    }
+  },
+  {
+    "text": "Are you capable of understanding my needs?",
+    "intent": "purpose_bot",
+    "intent_prediction": {
+      "name": "explain",
+      "confidence": 0.5953859090805054
+    }
+  },
+  {
+    "text": "you got it",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5474210381507874
+    }
+  },
+  {
+    "text": "No, I don't remember seeing him.",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.6916087865829468
+    }
+  },
+  {
+    "text": "I've exhausted my knowledge about that person.",
+    "intent": "stop_form",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.48734980821609497
+    }
+  },
+  {
+    "text": "It’s a mystery to me",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "purpose_bot",
+      "confidence": 0.2984332740306854
+    }
+  },
+  {
+    "text": "I lost my children",
+    "intent": "ask_with_info",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9499290585517883
+    }
+  },
+  {
+    "text": "What do you have on ID10?",
+    "intent": "ask_id",
+    "intent_prediction": {
+      "name": "ask_specific",
+      "confidence": 0.5632752180099487
+    }
+  },
+  {
+    "text": "I am looking for a person",
+    "intent": "ask_with_no_info",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 0.9999843835830688
+    }
+  },
+  {
+    "text": "I'm interested in finding someone",
+    "intent": "ask_with_no_info",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 0.9962565898895264
+    }
+  },
+  {
+    "text": "I want to find a person",
+    "intent": "ask_with_no_info",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Is there a way to locate someone?",
+    "intent": "ask_with_no_info",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Can you shed light on the context for wanting to know?",
+    "intent": "explain",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 0.9998207688331604
+    }
+  },
+  {
+    "text": "Can you tell me why you’re interested in that?",
+    "intent": "explain",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 0.5706984996795654
+    }
+  },
+  {
+    "text": "Almost sure it is a niece",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.591517984867096
+    }
+  },
+  {
+    "text": "a woman",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "he",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.195696160197258
+    }
+  },
+  {
+    "text": "how many girls are carrying a tote bag and without a beret",
+    "intent": "count_people",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 0.9078556299209595
+    }
+  },
+  {
+    "text": "long time no see",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9607062339782715
+    }
+  },
+  {
+    "text": "I am on cloud nine",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.42072170972824097
+    }
+  },
+  {
+    "text": "I feel so good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8674576878547668
+    }
+  },
+  {
+    "text": "I'm on top of the world",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "group_components",
+      "confidence": 0.19793649017810822
+    }
+  },
+  {
+    "text": "My day is going great",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5735350847244263
+    }
+  },
+  {
+    "text": "I'm so frustrated",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.3977949023246765
+    }
+  },
+  {
+    "text": "I can't stop crying",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "stop_form",
+      "confidence": 0.9740397930145264
+    }
+  },
+  {
+    "text": "I just want to give up",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4965686798095703
+    }
+  },
+  {
+    "text": "It's just not my day",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8131471276283264
+    }
+  },
+  {
+    "text": "it was nice talking to you",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8868231177330017
+    }
+  },
+  {
+    "text": "gotta go",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7912123203277588
+    }
+  },
+  {
+    "text": "have a wonderful day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.982155978679657
+    }
+  },
+  {
+    "text": "peace out",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.20015285909175873
+    }
+  },
+  {
+    "text": "I have to go now",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "stop_form",
+      "confidence": 0.4361964762210846
+    }
+  },
+  {
+    "text": "That sounds good",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.793927013874054
+    }
+  },
+  {
+    "text": "N",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6019686460494995
+    }
+  },
+  {
+    "text": "I don't possess any other data about them.",
+    "intent": "stop_form",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.988667905330658
+    }
+  },
+  {
+    "text": "I'm done answering about this.",
+    "intent": "stop_form",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.5350698828697205
+    }
+  },
+  {
+    "text": "Hmm...",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3692491054534912
+    }
+  },
+  {
+    "text": "I'm not 100% sure.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "ask_specific",
+      "confidence": 0.7234815955162048
+    }
+  },
+  {
+    "text": "I'm not acquainted with that.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6591234803199768
+    }
+  },
+  {
+    "text": "That’s a tough one.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9733871817588806
+    }
+  },
+  {
+    "text": "I’m drawing a blank.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.5366477370262146
+    }
+  },
+  {
+    "text": "She is a female.",
+    "intent": "ask_with_info",
+    "intent_prediction": {
+      "name": "inform_info",
+      "confidence": 0.9792653322219849
+    }
+  },
+  {
+    "text": "I want to find a man",
+    "intent": "ask_with_info",
+    "intent_prediction": {
+      "name": "ask_with_no_info",
+      "confidence": 0.5597741007804871
+    }
+  },
+  {
+    "text": "I'm looking for a woman",
+    "intent": "ask_with_info",
+    "intent_prediction": {
+      "name": "ask_with_no_info",
+      "confidence": 0.6578126549720764
+    }
+  },
+  {
+    "text": "I'm interested in find a aunt",
+    "intent": "ask_with_info",
+    "intent_prediction": {
+      "name": "ask_with_no_info",
+      "confidence": 0.8751270174980164
+    }
+  },
+  {
+    "text": "I want to find a person using a bag.",
+    "intent": "ask_with_info",
+    "intent_prediction": {
+      "name": "ask_with_no_info",
+      "confidence": 0.9873111248016357
+    }
+  },
+  {
+    "text": "I'm trying to find my dad. He has a beret",
+    "intent": "ask_with_info",
+    "intent_prediction": {
+      "name": "affirm_with_entity",
+      "confidence": 0.5175331830978394
+    }
+  },
+  {
+    "text": "I'm searching for a person",
+    "intent": "ask_with_no_info",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 0.9997493624687195
+    }
+  },
+  {
+    "text": "It should be a mom",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5116878747940063
+    }
+  },
+  {
+    "text": "wife",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6675227284431458
+    }
+  },
+  {
+    "text": "dude",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7813898324966431
+    }
+  },
+  {
+    "text": "a gal",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.37251847982406616
+    }
+  },
+  {
+    "text": "how are you",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "purpose_bot",
+      "confidence": 0.817127525806427
+    }
+  },
+  {
+    "text": "This is the best day ever",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "explain",
+      "confidence": 0.3466987907886505
+    }
+  },
+  {
+    "text": "I'm overjoyed",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7653681635856628
+    }
+  },
+  {
+    "text": "I feel really upbeat",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7731391191482544
+    }
+  },
+  {
+    "text": "I'm on a roll",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3978205919265747
+    }
+  },
+  {
+    "text": "I'm not happy today",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9780778884887695
+    }
+  },
+  {
+    "text": "Life is tough right now",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.8939699530601501
+    }
+  },
+  {
+    "text": "Everything feels wrong",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7507075667381287
+    }
+  },
+  {
+    "text": "I'm angry with myself",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.6284915208816528
+    }
+  },
+  {
+    "text": "Life is so unfair",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9684956073760986
+    }
+  },
+  {
+    "text": "I'm so tired of this",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6584737300872803
+    }
+  },
+  {
+    "text": "I'm in pain emotionally",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "stop_form",
+      "confidence": 0.4878523647785187
+    }
+  },
+  {
+    "text": "I feel like I'm failing",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5009782314300537
+    }
+  },
+  {
+    "text": "Thank you!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.39542075991630554
+    }
+  },
+  {
+    "text": "Cheers, thanks!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8262609839439392
+    }
+  },
+  {
+    "text": "adios",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6212945580482483
+    }
+  },
+  {
+    "text": "farewell",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.287092000246048
+    }
+  },
+  {
+    "text": "so long",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9941685199737549
+    }
+  },
+  {
+    "text": "I confirm",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.8413363695144653
+    }
+  },
+  {
+    "text": "does not wear it",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "ask_specific",
+      "confidence": 0.8209271430969238
+    }
+  },
+  {
+    "text": "Not at all.",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "deny_with_entity",
+      "confidence": 0.40823596715927124
+    }
+  },
+  {
+    "text": "No, that’s not the case.",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 0.5005521178245544
+    }
+  },
+  {
+    "text": "don't know more",
+    "intent": "stop_form",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.9711620211601257
+    }
+  },
+  {
+    "text": "no more info",
+    "intent": "stop_form",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8516290187835693
+    }
+  },
+  {
+    "text": "No more questions, if you don't mind.",
+    "intent": "stop_form",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6895715594291687
+    }
+  },
+  {
+    "text": "I have no clue.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8019768595695496
+    }
+  },
+  {
+    "text": "perhaps",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.3235911726951599
+    }
+  },
+  {
+    "text": "I’m stumped.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.48077794909477234
+    }
+  },
+  {
+    "text": "I'm on quest to discover a gal.",
+    "intent": "ask_with_info",
+    "intent_prediction": {
+      "name": "inform_info",
+      "confidence": 0.3247823119163513
+    }
+  },
+  {
+    "text": "Can you specify the purpose of your request?",
+    "intent": "explain",
+    "intent_prediction": {
+      "name": "purpose_bot",
+      "confidence": 0.9495264887809753
+    }
+  },
+  {
+    "text": "Pretty sure it is a man",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5049868822097778
+    }
+  },
+  {
+    "text": "son, I think",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6700668931007385
+    }
+  },
+  {
+    "text": "he is a male",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 0.9999897480010986
+    }
+  },
+  {
+    "text": "identify the ladies with no purses and without a helmet",
+    "intent": "count_people",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 0.999940037727356
+    }
+  },
+  {
+    "text": "calculate the number of individuals carrying a knapsack and wearing a sombrero",
+    "intent": "count_people",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Can you tell me who is in the group?",
+    "intent": "group_components",
+    "intent_prediction": {
+      "name": "group_position",
+      "confidence": 0.9736133813858032
+    }
+  },
+  {
+    "text": "it's nice to see you again",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6917745471000671
+    }
+  },
+  {
+    "text": "I'm over the moon",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5580308437347412
+    }
+  },
+  {
+    "text": "I'm absolutely delighted",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.28615880012512207
+    }
+  },
+  {
+    "text": "I can't stop smiling",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5583109259605408
+    }
+  },
+  {
+    "text": "I'm in high spirits",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.5358056426048279
+    }
+  },
+  {
+    "text": "I feel heartbroken",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8272468447685242
+    }
+  },
+  {
+    "text": "It's been a rough day",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.24217131733894348
+    }
+  },
+  {
+    "text": "I hate how things are",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9511504769325256
+    }
+  },
+  {
+    "text": "I feel so lost",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9408558011054993
+    }
+  },
+  {
+    "text": "Many thanks!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "count_people",
+      "confidence": 0.6144556999206543
+    }
+  },
+  {
+    "text": "good by",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.939414918422699
+    }
+  },
+  {
+    "text": "cheers",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.790660560131073
+    }
+  },
+  {
+    "text": "keep in touch",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.20806458592414856
+    }
+  },
+  {
+    "text": "What’s your purpose in this system?",
+    "intent": "purpose_bot",
+    "intent_prediction": {
+      "name": "explain",
+      "confidence": 0.8376619219779968
+    }
+  },
+  {
+    "text": "certainly",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.2129536122083664
+    }
+  },
+  {
+    "text": "I'm not confident about that.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3671795427799225
+    }
+  },
+  {
+    "text": "I'm not privy to that.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6291773915290833
+    }
+  },
+  {
+    "text": "I’m at a loss.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 0.991544246673584
+    }
+  },
+  {
+    "text": "Beats me.",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.23019084334373474
+    }
+  },
+  {
+    "text": "Are there any ladies not wearing a cap?",
+    "intent": "ask_with_info",
+    "intent_prediction": {
+      "name": "count_people",
+      "confidence": 0.9712433218955994
+    }
+  },
+  {
+    "text": "a boy",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 0.9312915802001953
+    }
+  },
+  {
+    "text": "sister",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "female",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "she is a female",
+    "intent": "inform_info",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how many young men are with a topper and not luggage",
+    "intent": "count_people",
+    "intent_prediction": {
+      "name": "ask_with_info",
+      "confidence": 0.6703643798828125
+    }
+  },
+  {
+    "text": "Tell me the components of the group.",
+    "intent": "group_components",
+    "intent_prediction": {
+      "name": "group_position",
+      "confidence": 0.6137710809707642
+    }
+  }
+]

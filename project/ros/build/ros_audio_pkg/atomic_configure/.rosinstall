@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/pietro/Desktop/cogrob_ws/ros/devel/.private/ros_audio_pkg/setup.sh

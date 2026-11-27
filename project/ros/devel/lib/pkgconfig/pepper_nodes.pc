@@ -1,0 +1,1 @@
+/home/pietro/Desktop/cogrob_ws/ros/devel/.private/pepper_nodes/lib/pkgconfig/pepper_nodes.pc

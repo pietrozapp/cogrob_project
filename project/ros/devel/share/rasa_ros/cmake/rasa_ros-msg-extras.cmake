@@ -1,0 +1,1 @@
+/home/pietro/Desktop/cogrob_ws/ros/devel/.private/rasa_ros/share/rasa_ros/cmake/rasa_ros-msg-extras.cmake

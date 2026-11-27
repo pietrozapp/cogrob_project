@@ -1,0 +1,2 @@
+set(pepper_nodes_MESSAGE_FILES "")
+set(pepper_nodes_SERVICE_FILES "/home/pietro/Desktop/cogrob_ws/ros/src/pepper_nodes/srv/ExecuteJS.srv;/home/pietro/Desktop/cogrob_ws/ros/src/pepper_nodes/srv/LoadUrl.srv;/home/pietro/Desktop/cogrob_ws/ros/src/pepper_nodes/srv/Rest.srv;/home/pietro/Desktop/cogrob_ws/ros/src/pepper_nodes/srv/Text2Speech.srv;/home/pietro/Desktop/cogrob_ws/ros/src/pepper_nodes/srv/WakeUp.srv")

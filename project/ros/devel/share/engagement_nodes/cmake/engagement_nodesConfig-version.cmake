@@ -1,0 +1,1 @@
+/home/pietro/Desktop/cogrob_ws/ros/devel/.private/engagement_nodes/share/engagement_nodes/cmake/engagement_nodesConfig-version.cmake

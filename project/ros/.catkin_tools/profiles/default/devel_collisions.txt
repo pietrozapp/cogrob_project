@@ -1,0 +1,2 @@
+/home/pietro/Desktop/cogrob_ws/ros/devel/./cmake.lock 463
+/home/andrea/Scrivania/cogrob_ws/ros/devel/./cmake.lock 12

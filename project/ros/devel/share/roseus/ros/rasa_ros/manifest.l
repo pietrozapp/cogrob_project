@@ -1,0 +1,1 @@
+/home/pietro/Desktop/cogrob_ws/ros/devel/.private/rasa_ros/share/roseus/ros/rasa_ros/manifest.l
